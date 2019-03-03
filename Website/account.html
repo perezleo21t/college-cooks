@@ -21,6 +21,31 @@
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
+		<style>
+			#customers {
+			  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			  border-collapse: collapse;
+			  width: 100%;
+			}
+
+			#customers td, #customers th {
+			  border: 1px solid #ddd;
+			  padding: 8px;
+			}
+
+			#customers th {
+			  padding-top: 12px;
+			  padding-bottom: 12px;
+			  text-align: left;
+			  background-color: #841518;
+			  color: white;
+			}
+
+			.wrapper.style4{
+				background: #ede6e6;
+			}
+		</style>
 	</head>
 	<body class="no-sidebar">
 
@@ -34,7 +59,7 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index2.html">Home</a></li>
 								<li>
 									<a href="">Programs</a>
 									<ul>
@@ -43,8 +68,8 @@
 									</ul>
 								</li>
 								<li><a href="account.html">Account</a></li>
-								<li><a href="contact.html">Contact</a></li>
 								<li><a href="about.html">About</a></li>
+								<li><a href="index.html">Log out</a></li>
 							</ul>
 						</nav>
 
@@ -56,9 +81,27 @@
 				<div class="container">
 					<section>
 						<header class="major">
-							<h2>Programs</h2>
+							<h2>Your Listings</h2>
 							<span class="byline"></span>
 						</header>
+						<table id="customers">
+						  <tr>
+						    <th>Item Name</th>
+						    <th>Program</th>
+						    <th>Price</th>
+						  </tr>
+						  <tr>
+						    <td>Used Violin</td>
+						    <td>Jazz Orchestra Winter Performance</td>
+						    <td>$50</td>
+						  </tr>
+						  <tr>
+						    <td>Used Cello</td>
+						    <td>Jazz Orchestra Winter Performance</td>
+						    <td>$100</td>
+						  </tr>
+						</table>
+
 
 					</section>
 				</div>

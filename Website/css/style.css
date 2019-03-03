@@ -1,4 +1,4 @@
-/*
+	/*
 	Horizons by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
@@ -473,6 +473,15 @@
           border: none;
           cursor: pointer;
         }
+        .signupbtn{
+          width: auto;
+          padding: 10px 18px;
+          background-color: #4CAF50;
+          color: white;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+        }
 
         .submit{
           width: auto;
@@ -703,7 +712,7 @@
 /* Modal */
 
     /* Full-width input fields */
-    input[type=text], input[type=password] {
+    input[type=text], input[type=password], input[type=location] {
       width: 100%;
       padding: 12px 20px;
       margin: 8px 0;
